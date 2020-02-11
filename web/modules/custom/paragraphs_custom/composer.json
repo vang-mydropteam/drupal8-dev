@@ -1,0 +1,13 @@
+{
+    "name": "paragraphs_custom",
+    "type": "drupal-module",
+    "description": "Created paragraph custom",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/paragraphs_custom",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/paragraphs_custom",
+        "source": "http://cgit.drupalcode.org/paragraphs_custom",
+    },
+}

@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * @file
+ * Contains paragraphs_custom.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function paragraphs_custom_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the paragraphs_custom module.
+    case 'help.page.paragraphs_custom':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Created paragraph custom') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+function paragraphs_custom_preprocess_paragraph__banner(&$variables) {
+  $paragraph = $variables['paragraph'];
+  if (!$paragraph->field_image->isEmpty()) {
+    $image = $paragraph->field_image->entity->url();
+    $variables['attributes']['style'][] = 'background-image: url("' . $image . '");';
+    $variables['attributes']['style'][] = 'background-size: cover;';
+    $variables['attributes']['style'][] = 'background-position: center center;';
+  }
+}

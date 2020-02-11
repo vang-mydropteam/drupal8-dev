@@ -1,0 +1,5 @@
+name: 'paragraphs_custom'
+type: module
+description: 'Created paragraph custom'
+core: 8.x
+package: 'Custom'
