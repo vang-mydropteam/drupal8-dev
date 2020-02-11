@@ -1,0 +1,22 @@
+uuid: 9eb60d32-f8b1-498f-8a23-2de7dd0dfdce
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_cdn
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: bootstrap_cdn_messages
+theme: bootstrap_cdn
+region: header
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

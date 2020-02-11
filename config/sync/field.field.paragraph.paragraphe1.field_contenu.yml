@@ -1,0 +1,28 @@
+uuid: dd56f89c-cbbd-42fa-a5c4-fedd02d486e0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_contenu
+    - node.type.article
+    - paragraphs.paragraphs_type.paragraphe1
+id: paragraph.paragraphe1.field_contenu
+field_name: field_contenu
+entity_type: paragraph
+bundle: paragraphe1
+label: Contenu
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

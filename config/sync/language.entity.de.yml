@@ -1,0 +1,11 @@
+uuid: 96eaff54-77fb-41a5-af1c-6705b98c4293
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tZHMPSDA5PkRP7XIrFWaxJwM2W9wkp5cLlcy9WYpS2s
+id: de
+label: German
+direction: ltr
+weight: 1
+locked: false

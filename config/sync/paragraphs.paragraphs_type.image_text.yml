@@ -1,0 +1,11 @@
+uuid: a51e3002-0c56-443b-a2da-530684b05fa3
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: GQK4RFszwiDZ1mB_lc7Y5XZUiV0PW38Mt9bjH0wVijs
+id: image_text
+label: 'Image + Text'
+icon_uuid: null
+description: 'Use <em>Image + Text</em> for adding an image on the left and a text on the right.'
+behavior_plugins: {  }

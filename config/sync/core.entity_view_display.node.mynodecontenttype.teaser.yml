@@ -1,0 +1,26 @@
+uuid: 3674bf68-7eb5-4d5a-9d6d-a3a2e33ad8dc
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mynodecontenttype.field_myparagraphreference
+    - field.field.node.mynodecontenttype.layout_builder__layout
+    - node.type.mynodecontenttype
+  module:
+    - user
+id: node.mynodecontenttype.teaser
+targetEntityType: node
+bundle: mynodecontenttype
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_myparagraphreference: true
+  langcode: true
+  layout_builder__layout: true
+  search_api_excerpt: true

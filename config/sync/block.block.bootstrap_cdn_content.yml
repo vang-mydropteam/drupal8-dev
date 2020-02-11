@@ -1,0 +1,22 @@
+uuid: 78118c0d-7a12-4334-a4cf-75aa88e22c35
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_cdn
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: bootstrap_cdn_content
+theme: bootstrap_cdn
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

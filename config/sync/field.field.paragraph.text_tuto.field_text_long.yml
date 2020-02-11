@@ -1,0 +1,21 @@
+uuid: ff302a9c-ca30-4037-825c-4452053f77d8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_long
+    - paragraphs.paragraphs_type.text_tuto
+  module:
+    - text
+id: paragraph.text_tuto.field_text_long
+field_name: field_text_long
+entity_type: paragraph
+bundle: text_tuto
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

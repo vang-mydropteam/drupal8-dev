@@ -1,0 +1,11 @@
+uuid: 33b09741-7ade-406b-afb1-c349a477a849
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:97bc39d5-73de-4b9e-b491-7d43ab413d1b'
+id: text_with_image
+label: 'Text with image'
+icon_uuid: 97bc39d5-73de-4b9e-b491-7d43ab413d1b
+description: ''
+behavior_plugins: {  }

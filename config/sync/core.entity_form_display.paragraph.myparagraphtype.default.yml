@@ -1,0 +1,23 @@
+uuid: 6ddc6560-ecc7-403c-9c1a-d0cb1cfd6e78
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.myparagraphtype.field_mytext
+    - paragraphs.paragraphs_type.myparagraphtype
+id: paragraph.myparagraphtype.default
+targetEntityType: paragraph
+bundle: myparagraphtype
+mode: default
+content:
+  field_mytext:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

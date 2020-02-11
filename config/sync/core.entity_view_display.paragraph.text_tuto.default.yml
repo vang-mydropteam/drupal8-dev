@@ -1,0 +1,23 @@
+uuid: a4e77e52-076b-4fa6-b639-f2bd660fb26c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_tuto.field_text_long
+    - paragraphs.paragraphs_type.text_tuto
+  module:
+    - text
+id: paragraph.text_tuto.default
+targetEntityType: paragraph
+bundle: text_tuto
+mode: default
+content:
+  field_text_long:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  search_api_excerpt: true

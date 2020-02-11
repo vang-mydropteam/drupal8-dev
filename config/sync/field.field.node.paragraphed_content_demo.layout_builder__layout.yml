@@ -1,0 +1,21 @@
+uuid: 0c68db93-edf8-4675-82eb-5e450d6ea4cd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_builder__layout
+    - node.type.paragraphed_content_demo
+  module:
+    - layout_builder
+id: node.paragraphed_content_demo.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+bundle: paragraphed_content_demo
+label: Affichage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

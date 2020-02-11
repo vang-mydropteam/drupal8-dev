@@ -1,0 +1,25 @@
+uuid: d95b2571-c299-4aef-afee-623b0f618a8f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.text_tuto.field_text_long
+    - paragraphs.paragraphs_type.text_tuto
+  module:
+    - text
+id: paragraph.text_tuto.default
+targetEntityType: paragraph
+bundle: text_tuto
+mode: default
+content:
+  field_text_long:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

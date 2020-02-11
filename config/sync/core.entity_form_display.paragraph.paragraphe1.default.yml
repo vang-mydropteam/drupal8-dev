@@ -1,0 +1,36 @@
+uuid: 5ecdaee4-6104-46dc-ac2b-ba7de5504d33
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraphe1.field_contenu
+    - field.field.paragraph.paragraphe1.field_titre
+    - paragraphs.paragraphs_type.paragraphe1
+  module:
+    - text
+id: paragraph.paragraphe1.default
+targetEntityType: paragraph
+bundle: paragraphe1
+mode: default
+content:
+  field_contenu:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_titre:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true

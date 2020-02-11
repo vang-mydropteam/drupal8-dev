@@ -1,0 +1,67 @@
+uuid: 0e95719e-724d-4111-9220-45d269ac6a2e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_myparagraphreference
+    - node.type.mynodecontenttype
+    - paragraphs.paragraphs_type.myparagraphtype
+  module:
+    - entity_reference_revisions
+id: node.mynodecontenttype.field_myparagraphreference
+field_name: field_myparagraphreference
+entity_type: node
+bundle: mynodecontenttype
+label: myparagraphreference
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      myparagraphtype: myparagraphtype
+    target_bundles_drag_drop:
+      banner:
+        weight: 14
+        enabled: false
+      content:
+        weight: 15
+        enabled: false
+      from_library:
+        weight: 16
+        enabled: false
+      images:
+        weight: 17
+        enabled: false
+      image_text:
+        weight: 18
+        enabled: false
+      myparagraphtype:
+        enabled: true
+        weight: 19
+      nested_paragraph:
+        weight: 20
+        enabled: false
+      paragraphe1:
+        weight: 21
+        enabled: false
+      text:
+        weight: 22
+        enabled: false
+      text_image:
+        weight: 23
+        enabled: false
+      text_tuto:
+        weight: 24
+        enabled: false
+      text_with_image:
+        weight: 25
+        enabled: false
+      user:
+        weight: 26
+        enabled: false
+field_type: entity_reference_revisions

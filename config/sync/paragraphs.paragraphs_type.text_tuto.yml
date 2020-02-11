@@ -1,0 +1,11 @@
+uuid: 38777d86-0f2f-4b97-a993-3cfb4c103b53
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:67f5618a-1905-4d8d-83f6-57eb8cb57e47'
+id: text_tuto
+label: Text_tuto
+icon_uuid: 67f5618a-1905-4d8d-83f6-57eb8cb57e47
+description: ''
+behavior_plugins: {  }

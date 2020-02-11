@@ -1,0 +1,14 @@
+uuid: b7ae75ce-2970-4871-8ba6-92d55150196e
+name: 'Drupal - Drop Team - Dév'
+mail: vang-neva.ku@mydropteam.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/2
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

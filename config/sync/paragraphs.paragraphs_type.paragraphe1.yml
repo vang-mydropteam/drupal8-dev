@@ -1,0 +1,11 @@
+uuid: 7b1ce56e-2321-4751-bf61-f07f3b9f5fba
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'file:file:21c15eaa-72f1-4612-8c8d-cbc1ae515b4b'
+id: paragraphe1
+label: Paragraphe1
+icon_uuid: 21c15eaa-72f1-4612-8c8d-cbc1ae515b4b
+description: Naruto
+behavior_plugins: {  }

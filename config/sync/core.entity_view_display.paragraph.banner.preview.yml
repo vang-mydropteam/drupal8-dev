@@ -1,0 +1,26 @@
+uuid: 00a8431a-a57c-4524-a980-32832bec2fcf
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.banner.field_image
+    - field.field.paragraph.banner.field_paragraphs
+    - paragraphs.paragraphs_type.banner
+  module:
+    - paragraphs
+id: paragraph.banner.preview
+targetEntityType: paragraph
+bundle: banner
+mode: preview
+content:
+  field_paragraphs:
+    type: paragraph_summary
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_image: true
+  search_api_excerpt: true

@@ -1,0 +1,23 @@
+uuid: 40c55bd4-b18c-4c93-ae91-6b276a0f8259
+langcode: fr
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - bootstrap_cdn
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: bootstrap_cdn_search
+theme: bootstrap_cdn
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: ''
+visibility: {  }

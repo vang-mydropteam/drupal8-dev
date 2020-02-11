@@ -1,0 +1,21 @@
+uuid: 0214136c-5cba-43b6-bd1c-657256b1fb4f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titre
+    - paragraphs.paragraphs_type.paragraphe1
+  module:
+    - text
+id: paragraph.paragraphe1.field_titre
+field_name: field_titre
+entity_type: paragraph
+bundle: paragraphe1
+label: Titre
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
