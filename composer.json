@@ -30,6 +30,8 @@
         "drupal/entity_browser": "^2.4",
         "drupal/entity_reference_revisions": "^1.7",
         "drupal/entity_usage": "^2.0@beta",
+        "drupal/gatsby": "^1.0@beta",
+        "drupal/graphql": "^3.0",
         "drupal/group": "^1.0@RC",
         "drupal/mail_login": "^1.0",
         "drupal/module_filter": "^3.1",
